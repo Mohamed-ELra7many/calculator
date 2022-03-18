@@ -1,0 +1,42 @@
+/*start setting container*/
+.container{
+    margin: 10vh auto 0 auto;
+    max-width: 400px;
+    box-shadow: 0 0 43px 17px rgba(143, 143, 143, 1);
+}
+.display{
+    text-align: right;
+    line-height: 70px;
+    padding: 16px 8px;
+    height: 80px;
+    font-size: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+.buttons >div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+
+}
+.boutton{
+    border: 1px solid #999;
+    line-height: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+#ec{
+    background-color: #5555ff;
+    color: #fff;
+
+}
+.boutton:hover{
+    background-color: #323330;
+    color: #fff;
+    transition: .5s ;
+}
+/*end setting container*/
